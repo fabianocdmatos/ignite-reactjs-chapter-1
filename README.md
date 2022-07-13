@@ -22,7 +22,7 @@ Estudo de React JS desde o Início
     - **public** - pasta onde vai ficar arquivos publicos da aplicação, arquivos que pode ser acessado de meios externos. ( ex.: favicon.ico, index.html, robot.txt, etc.)
       - **public/index.html** - arquivo **index.html** criado dentro da **public**.
 
-(******\*\*\*\*******\*\*\*\*******\*\*\*\*******\_\_\_\_******\*\*\*\*******\*\*\*\*******\*\*\*\*******)
+---
 
 ### Aula 01
 
