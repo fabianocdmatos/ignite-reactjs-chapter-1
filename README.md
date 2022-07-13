@@ -2,6 +2,27 @@
 
 Estudo de React JS desde o Início
 
+### Aula 02
+
+- Criando estrutura do projeto
+
+  - Criar pasta do projeto
+  - Inicializar o repositório
+
+    - npm init -y
+      - Cria automanticamente o arquivo abaixo com as configurações corretas, onde vai ter as informações e dependências do projeto.
+      - package.json
+
+  - Instalando bibliotecas/dependências do projeto, a chamada e registros delas vão ser salvo no arquivo package.json.
+    - npm install react - biblioteca principal em Javascript para o desenvolvimento de aplicações.
+    - npm install react-dom - biblioteca Javascript, interpretador/conversor de HTML para poder trabalhar React com Web. Comunicação do Javascript com o HTML.
+  - Estrutura de pastas e arquivos ( fazer a criação das pastas e arquivos abaixo começando na pasta principal )
+    - src - pasta source onde vai conter todo código criado por você da aplicação
+    - public - pasta onde vai ficar arquivos publicos da aplicação, arquivos que pode ser acessado de meios externos. ( ex.: favicon.ico, index.html, robot.txt, etc.)
+      - public/index.html - arquivo index.html criado dentro da public.
+
+### Aula 01
+
 - Instalação e configuração do Ambiente para o desenvolvimento
 
   - NodeJs ( https://nodejs.org/ )
