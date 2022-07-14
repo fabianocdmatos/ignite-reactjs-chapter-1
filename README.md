@@ -42,16 +42,14 @@ Estudo de React JS desde o Início
     console.log(user.address?.street);
     ```
 
-- Comando via bash para poder converter o `Javascript` e `JSX` de uma forma que os navegadores entendam.
+- Comando via `bash` para poder converter o `Javascript` e `JSX` de uma forma que os navegadores entendam.
 
   - `npx babel src/index.js --out-file dist/bundle.js`
   - com este comando vai ser gerado o `Javascript` de uma forma que os navegadores entendam, onde que `--out-file` vai ser o arquivo `JS` gerado com o códgo todo convertido.
   - de acordo com uma convenção a pasta `dist` e o arquivo `bundle.js` é meio que padrão para o desenvolvimento.
   - após executar o comando vai ser gerada a pasta `dist` com arquivo `bundle.js` onde em `bundle.js` vai estar o código `Javascript` convertido de uma forma que os navegadores entendam.
 
-  - ```
-    Obervação: nunca vamos programar ou mexer nesta pasta dist e nem no arquivo bundle.js. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o Javascript convertido de uma forma que os navegadores entendam.
-    ```
+  - `Obervação: nunca vamos programar ou mexer nesta pasta dist e nem no arquivo bundle.js. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o Javascript convertido de uma forma que os navegadores entendam.`
 
 - altere a extenção do arquivo `index.js` para `index.jsx` onde `*.jsx` é aplicação desenvolvida em `React` e não só em `Javascript`, e `*.jsx` é a nomenclatura que foi adicionado no `Javascript` para poder descrever de usar `HTML` dentro do `Javascript`.
 
