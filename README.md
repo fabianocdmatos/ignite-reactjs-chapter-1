@@ -2,7 +2,11 @@
 
 Estudo de React JS desde o Início
 
+---
+
 ### Aula 02 - Criando estrutura do projeto
+
+---
 
 - Criar pasta do projeto
 - Inicializar o repositório
@@ -23,6 +27,8 @@ Estudo de React JS desde o Início
 ---
 
 ### Aula 01 - Instalação e configuração do Ambiente para o desenvolvimento
+
+---
 
 - NodeJs ( https://nodejs.org/ )
 - Git ( https://git-scm.com/ )
