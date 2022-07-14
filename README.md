@@ -18,7 +18,7 @@ Estudo de React JS desde o Início
     - **npm install react-dom** - biblioteca Javascript, interpretador/conversor de HTML para poder trabalhar React com Web. Comunicação do Javascript com o HTML.
 
   - Estrutura de pastas e arquivos ( fazer a criação das pastas e arquivos abaixo começando na pasta principal )
-    - **src** - pasta source onde vai conter todo código criado por você da aplicação
+    - `**src**` - pasta source onde vai conter todo código criado por você da aplicação
     - **public** - pasta onde vai ficar arquivos publicos da aplicação, arquivos que pode ser acessado de meios externos. ( ex.: favicon.ico, index.html, robot.txt, etc.)
       - **public/index.html** - arquivo **index.html** criado dentro da **public**.
 
