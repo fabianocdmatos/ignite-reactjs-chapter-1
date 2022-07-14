@@ -8,26 +8,26 @@ Estudo de React JS desde o Início
 
 ---
 
-- `Babel` ( https://babeljs.io/ ) - Conversor do código `Javascript` e `JSX` de uma maneira que todos os navegadores entendam.
+- `Babel` ( https://babeljs.io/ )
+- Conversor do código `Javascript` e `JSX` de uma maneira que todos os navegadores entendam.
 
   - Instalação apenas no ambiente `-D` desenvolvimento.
-    Em produção não precisa do `Babel`, o código vai ser convertido antes de subir a aplicação.
+  - Em produção não precisa do `Babel`, o código vai ser convertido antes de subir a aplicação.
 
     - `npm install @babel/core -D` - biblioteca que contém todas as funcionalidades do `Babel`.
     - `npm install @babel/cli -D` - biblioteca para o `Babel` ser executado em linha de comando.
-    - `npm install @babel/preset-env -D` - biblioteca que identifica qual ambiente a aplicação esta sendo executada para poder converter o `Javascript` e `JSX` da melhor maneira possível para o ambiente que vai instalado a aplicação.
+    - `npm install @babel/preset-env -D` - biblioteca que identifica qual ambiente a aplicação esta sendo executada para poder converter o `Javascript` e `JSX` da melhor maneira possível para o ambiente que vai ser instalado a aplicação.
 
   - Na pasta principal crie o arquivo `babel.config.js`
+  - Dentro do arquivo adicione a configuração do `Babel`
 
-    - Dentro do arquivo adicione a configuração do `Babel`
+    ```lang-js
+    module.exports = {
+      presets: [ '@babel/preset-env' ]
+    }
+    ```
 
-      ```lang-js
-      module.exports = {
-        presets: [ '@babel/preset-env' ]
-      }
-      ```
-
-  - Na pasta `src` crie o arquivo index.js e digite o código abaixo.:
+  - Na pasta `src` crie o arquivo `index.js` e digite o código abaixo.:
 
     ```lang-js
     const user = {
@@ -41,13 +41,11 @@ Estudo de React JS desde o Início
 - Comando via bash para poder converter o `Javascript` e `JSX` de uma forma que os navegadores entendam.
 
   - `npx babel src/index.js --out-file dist/bundle.js`
-
-    - com este comando vai ser gerado o `Javascript` de uma forma que os navegadores entendam, onde que `--out-file` vai ser o arquivo `JS` gerado com o códgo todo convertido.
-    - de acordo com uma convenção a pasta `dist` e o arquivo `bundle.js` é meio que padrão para o desenvolvimento.
-
+  - com este comando vai ser gerado o `Javascript` de uma forma que os navegadores entendam, onde que `--out-file` vai ser o arquivo `JS` gerado com o códgo todo convertido.
+  - de acordo com uma convenção a pasta `dist` e o arquivo `bundle.js` é meio que padrão para o desenvolvimento.
   - após executar o comando vai ser gerada a pasta `dist` com arquivo `bundle.js` onde em `bundle.js` vai estar o código `Javascript` convertido de uma forma que os navegadores entendam.
 
-  - **Obervação:** nunca vamos programar ou mexer nesta pasta `dist` e nem no arquivo `bundle.js`. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o `Javascript` convertido de uma forma que os navegadores entendam.
+  - `**Obervação:** nunca vamos programar ou mexer nesta pasta dist e nem no arquivo bundle.js. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o Javascript convertido de uma forma que os navegadores entendam.`
 
 ---
 
