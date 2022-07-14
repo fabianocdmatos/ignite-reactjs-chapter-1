@@ -16,8 +16,8 @@ Estudo de React JS desde o Início
 
 - Instalando bibliotecas/dependências do projeto, a chamada e registros delas vão ser salvo no arquivo `package.json`.
 
-  - `npm install react` - biblioteca principal em Javascript para o desenvolvimento de aplicações.
-  - `npm install react-dom` - biblioteca Javascript, interpretador/conversor de HTML para poder trabalhar React com Web. Comunicação do Javascript com o HTML.
+  - `npm install react` ( https://www.npmjs.com/package/react ) - biblioteca principal em Javascript para o desenvolvimento de aplicações.
+  - `npm install react-dom` ( https://www.npmjs.com/package/react-dom ) - biblioteca Javascript, interpretador/conversor de HTML para poder trabalhar React com Web. Comunicação do Javascript com o HTML.
 
 - Estrutura de pastas e arquivos ( fazer a criação das pastas e arquivos abaixo começando na pasta principal )
   - `src` - pasta source onde vai conter todo código criado por você da aplicação
