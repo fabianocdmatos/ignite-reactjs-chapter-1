@@ -17,13 +17,17 @@ Estudo de React JS desde o Início
     - `npm install @babel/core -D` - biblioteca que contém todas as funcionalidades do `Babel`.
     - `npm install @babel/cli -D` - biblioteca para o `Babel` ser executado em linha de comando.
     - `npm install @babel/preset-env -D` - biblioteca que identifica qual ambiente a aplicação esta sendo executada para poder converter o `Javascript` e `JSX` da melhor maneira possível para o ambiente que vai ser instalado a aplicação.
+    - `npm install @babel/preset-react -D` - biblioteca para o `Babel` conseguir entender o código `React`, `JSX`, `HTML`, `Javascript`, dentro da compilação. Para assim fazer a compilação para o ambiente.
 
   - Na pasta principal crie o arquivo `babel.config.js`
   - Dentro do arquivo adicione a configuração do `Babel`
 
     ```lang-js
     module.exports = {
-      presets: [ '@babel/preset-env' ]
+      presets: [
+        '@babel/preset-env',
+        '@babel/preset-react'
+      ]
     }
     ```
 
@@ -45,7 +49,11 @@ Estudo de React JS desde o Início
   - de acordo com uma convenção a pasta `dist` e o arquivo `bundle.js` é meio que padrão para o desenvolvimento.
   - após executar o comando vai ser gerada a pasta `dist` com arquivo `bundle.js` onde em `bundle.js` vai estar o código `Javascript` convertido de uma forma que os navegadores entendam.
 
-  - `**Obervação:** nunca vamos programar ou mexer nesta pasta dist e nem no arquivo bundle.js. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o Javascript convertido de uma forma que os navegadores entendam.`
+  - ```
+    Obervação: nunca vamos programar ou mexer nesta pasta dist e nem no arquivo bundle.js. Só apenas ao executar a aplicação e fazendo o build dela, automanticamente vai ser gerada esta pasta com o Javascript convertido de uma forma que os navegadores entendam.
+    ```
+
+- altere a extenção do arquivo `index.js` para `index.jsx` onde `*.jsx` é aplicação desenvolvida em `React` e não só em `Javascript`, e `*.jsx` é a nomenclatura que foi adicionado no `Javascript` para poder descrever de usar `HTML` dentro do `Javascript`.
 
 ---
 
