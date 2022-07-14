@@ -9,10 +9,13 @@ Estudo de React JS desde o Início
 ---
 
 - Criar pasta do projeto
-- Inicializar o repositório
 
-  - `npm init -y` - Cria automanticamente o arquivo abaixo com as configurações corretas, onde vai conter as informações e dependências do projeto.
-    - `package.json`
+  - `ignite-reactjs-chapter-1`
+
+- Inicializar o repositório dentro da pasta `ignite-reactjs-chapter-1`
+
+  - `npm init -y` - Cria automanticamente o arquivo abaixo com as configurações corretas.
+    - `package.json` - contem as configurações, informações e dependências do projeto.
 
 - Instalando bibliotecas/dependências do projeto, a chamada e registros delas vão ser salvo no arquivo `package.json`.
 
